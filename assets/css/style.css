@@ -784,6 +784,12 @@ owl-item {
 .text-contact {
     color: var(--dark) !important;
     font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.text-contact-con {
+    color: var(--dark) !important;
+    font-size: 3rem;
 
 }
 
