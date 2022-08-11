@@ -4048,7 +4048,7 @@ textarea.form-control-lg {
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: var(--bs-navbar-active-color)
+    color: #35063A;
 }
 
 .navbar-nav .dropdown-menu {
