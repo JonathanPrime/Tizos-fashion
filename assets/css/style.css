@@ -790,7 +790,6 @@ owl-item {
 .text-contact-con {
     color: var(--dark) !important;
     font-size: 3rem;
-
 }
 
 .heading_div {
@@ -1262,6 +1261,9 @@ input.whats-input[type=text]:focus {
 }
 
 @media(max-width:768px) {
+    .text-contact-con {
+        font-size: 2rem;
+    }
     .about {
         background-size: contain, 35%;
     }
