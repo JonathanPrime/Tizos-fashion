@@ -1,11 +1,22 @@
 window.onscroll = function() {
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0 ) {
         document.getElementById('navbar').classList.add('scrolled');
-		document.getElementById('img-logo').src = '../assets/images/svg/logo-black.svg';
+        document.getElementById('navbar-to').style.backgroundColor = "#FFFF";
+        document.getElementById('link-1').style.color = "#C80048";
+        document.getElementById('link-2').style.color = "#C80048";
+        document.getElementById('link-3').style.color = "#C80048";
+        document.getElementById('link-4').style.color = "#C80048";
+        document.getElementById('link-5').style.color = "#C80048";
+		  document.getElementById('img-logo').src = '../assets/images/svg/logo-black.svg';
     } else {
         document.getElementById('navbar').classList.remove('scrolled');
-		document.getElementById('navbar-to').style.backgroundColor = "#FFFF";
-		document.getElementById('img-logo').src = '../assets/images/svg/logo-white.svg';
+		  document.getElementById('navbar-to').style.backgroundColor = "#FFFF";
+      document.getElementById('link-1').style.color = "#FFFF";
+        document.getElementById('link-2').style.color = "#FFFF";
+        document.getElementById('link-3').style.color = "#FFFF";
+        document.getElementById('link-4').style.color = "#FFFF";
+        document.getElementById('link-5').style.color = "#FFFF";
+		  document.getElementById('img-logo').src = '../assets/images/svg/logo-white.svg';
     }
 }
 
